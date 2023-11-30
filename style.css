@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Itim', cursive;
+    margin: 0;
+    min-height: 100vh;
+    max-width: 1024px;
+    margin: auto;
+
+}
+
+header {
+    overflow: hidden;
+
+}
+
+header > img {
+    /* max-width: 1024px; */
+    width: 1024px;
+    height: 150px;
+    object-fit: cover;
+   
+    
+}
+
+nav {
+    display: flex;
+    background-color: burlywood;
+    height: 80px;
+    padding: 0px 20px 0 0px;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+
+nav > p {
+    text-align: center;
+    flex-grow: 1;
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+.right-group {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-grow: 9;
+    gap: 20px;
+
+}
+
+.right-group > *  {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    border: none;
+    height: 50px;
+    cursor: pointer;
+    /* border: 1px solid red; */
+
+}
+
+.round-coner {
+    border-radius: 20px;
+    border: 1px solid beige;
+    padding: 0px 16px;
+}
+
+.right-group img {
+    height: 80%;
+
+}
+
+/* .btn:hover {
+    background-color: brown;
+    color: aliceblue;
+} */
+
+.welcome {
+    background-color: whitesmoke;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.sub-welcome {
+    background-color: whitesmoke;
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+
+.item-row {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 50%;
+    width: 20vw;
+    height: 20vw;
+    margin-block: 16px;
+    overflow: hidden;
+    text-align: center;
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 400px;
+    max-height: 400px; 
+ 
+
+}
+
+.item:hover, .btn:hover {
+    background-color: rgb(250, 234, 214);
+    box-shadow: 2px 2px 20px burlywood;
+}
+
+.item > p {
+    margin-top: 10%;
+    font-size: 100%;
+    font-size: xx-large;
+    text-align: center;
+   
+    
+}
+
+.item > img {
+    width: 25%;
+    object-fit: cover;
+    /* box-shadow: 5px 10px; */
+ 
+}
+
